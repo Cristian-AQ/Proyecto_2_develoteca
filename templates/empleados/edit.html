@@ -21,6 +21,7 @@
                 <div class="form-group">
                     <label for="txtFoto">Foto: </label>
                     <br>
+                    <!--<video src="{{ url_for('uploads',nombreFoto=empleado.foto) }}" width="320" height="240" controls></video>-->
                     <img class="img-thumbnail" width="100" src="{{ url_for('uploads',nombreFoto=empleado.foto) }}" alt="">
                     <input id="txtFoto" class="form-control" type="file" name="txtFoto">
                 </div>
